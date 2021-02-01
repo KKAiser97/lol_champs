@@ -22,7 +22,7 @@ abstract class ChampApi {
 
   //TODO: change api key here
   @GET(
-      'https://kr.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=RGAPI-37215921-75f7-45cc-8a12-fe7b053dccf1')
+      'https://br1.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=RGAPI-82807f02-04b2-42b4-a768-a1a8718f4f33')
   Future<FreeChampList> getFreeChampList();
 
   @GET('/{id}/data')
